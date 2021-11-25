@@ -5,7 +5,7 @@ Generates the shared audience network for a scan
 import pandas as pd
 import itertools
 
-filename = "fbh2_ct_scan_2016-processed"
+filename = "Political study - NLP Facebook Data - 20211124-processed"
 print(f"Processing data/{filename}.csv")
 df = pd.read_csv(
     f"data/{filename}.csv",
